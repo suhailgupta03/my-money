@@ -10,6 +10,16 @@ export function computeChange(allocation, sip, changeMap, stopMonth) {
   let totalDebtBalance = 0;
   let totalGoldBalance = 0;
 
+  if(allocation.length === 0) {
+    alert("CANNOT COMPUTE BALANCE WITHOUT ALLOCATION");
+    throw new Error("Allocation not defined");
+  } 
+
+  if(equitySip === 0 || debtSip === 0 || goldSip === 0) {
+    alert("SIP ALLOCATION IS EITHER 0 OR NOT_DEFINED. ABORTING!!");
+    throw new Error("Sip allocation is missing");
+  }
+
   for (let month = 0; month <= stopMonth; month++) {
     const change = changeMap[month];
     if (!change) {
