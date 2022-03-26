@@ -2,6 +2,22 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## DEMO LINK
+
+## Note
+ - Currently the UX does not handle the change of state when the commands are deleted. 
+ - Currently as per my understanding, the REBALANCE computation happens only for JUNE and DECEMBER. So, if REBALANCE is attempted for the 
+ 7th month, the application will throw an informed error.
+ 
+## BALANCE
+
+The logic for BALANCE computation is available in `src/business-logic/compute-change.js`
+
+## REBALANCE
+
+The logic for REBALANCE computation is available in `src/business-logic/compute-rebalance.js`
+
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -178,7 +178,7 @@ export class Main extends React.Component {
   }
 
   onCommandEnter(commandNumber, enteredValue) {
-    const {isCommandValid} = this.updateCommandValues(enteredValue);
+    this.updateCommandValues(enteredValue);
 
     this.setState({
       commandMap: {
