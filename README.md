@@ -3,12 +3,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## DEMO LINK
+- https://dulcet-piroshki-88753e.netlify.app/
+
+## DEMO BY SUHAIL
+- https://www.youtube.com/watch?v=-WHmq5iFMPM
 
 ## Note
  - Currently the UX does not handle the change of state when the commands are deleted. 
  - Currently as per my understanding, the REBALANCE computation happens only for JUNE and DECEMBER. So, if REBALANCE is attempted for the 
  7th month, the application will throw an informed error.
- 
+
 ## BALANCE
 
 The logic for BALANCE computation is available in `src/business-logic/compute-change.js`
