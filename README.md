@@ -9,6 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - https://www.youtube.com/watch?v=-WHmq5iFMPM
 
 ## Note
+ - **React + Vanilla Javascript** has been used to build this. React was used to give a better feel while operating this software.
  - Currently the UX does not handle the change of state when the commands are deleted. 
  - Currently as per my understanding, the REBALANCE computation happens only for JUNE and DECEMBER. So, if REBALANCE is attempted for the 
  7th month, the application will throw an informed error.
